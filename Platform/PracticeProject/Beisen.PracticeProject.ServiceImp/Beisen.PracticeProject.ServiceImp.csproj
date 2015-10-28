@@ -47,6 +47,12 @@
     <Folder Include="Persistence\" />
     <Folder Include="Provider\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Beisen.PracticeProject.ServiceInterface\Beisen.PracticeProject.ServiceInterface.csproj">
+      <Project>{f53786b8-61a9-4f07-98f7-b4a74e58f743}</Project>
+      <Name>Beisen.PracticeProject.ServiceInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -256,6 +256,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Platform\PracticeProject\Beisen.PracticeProject.ServiceImp\Beisen.PracticeProject.ServiceImp.csproj">
+      <Project>{4b1c0507-9832-4288-94ed-c4e6e70f6560}</Project>
+      <Name>Beisen.PracticeProject.ServiceImp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Platform\PracticeProject\Beisen.PracticeProject.ServiceInterface\Beisen.PracticeProject.ServiceInterface.csproj">
+      <Project>{f53786b8-61a9-4f07-98f7-b4a74e58f743}</Project>
+      <Name>Beisen.PracticeProject.ServiceInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
